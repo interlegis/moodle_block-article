@@ -1,4 +1,4 @@
 <?php
-$plugin->component = 'block_article';
-$plugin->version = 2018052500;
+$plugin->version = 2018060421;
 $plugin->requires = 2017110800;
+$plugin->component = 'block_article';

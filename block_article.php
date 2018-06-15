@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: eduardo
- * Date: 25/05/18
- * Time: 16:19
- */
+defined('MOODLE_INTERNAL') || die();
 
 class block_article extends block_base
 {
@@ -18,6 +13,7 @@ class block_article extends block_base
 
         $this->content         =  new stdClass;
         $this->content->text   = 'The content of our SimpleHTML block!';
+        $url = new moodle_url('/blocks/article/new.php');
         $this->content->footer = 'Footer here...';
 
         return $this->content;
