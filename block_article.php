@@ -14,6 +14,7 @@ class block_article extends block_base
         $this->content         =  new stdClass;
         $this->content->text   = 'The content of our SimpleHTML block!';
         $url = new moodle_url('/blocks/article/new.php');
+        $url_index = new moodle_url('/blocks/article/index.php');
         $this->content->footer = 'Footer here...';
 
         return $this->content;
